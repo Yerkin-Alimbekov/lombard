@@ -18,7 +18,7 @@ const Hero = () => {
       <div className="container mx-auto h-full">
         <div className="relative z-20 h-full w-full xl:max-w-[768px] flex flex-col items-center xl:items-start justify-center text-center xl:text-left pt-10">
           <h1 className="h2 mb-2 max-w-[320px] xl:max-w-none">
-            <span className="text-accent flex">МИКРОКРЕДИТЫ</span> 
+            <span className="text-accent flex">КРЕДИТЫ ПОД ЗАЛОГ АВТО</span>
             <TypeAnimation
               preRenderFirstString={true}
               sequence={["от 200 тыс.тг", 2000, "до 29,5 млн.тг", 2000, "за 30 минут", 2000]}
@@ -30,9 +30,11 @@ const Hero = () => {
             />
           </h1>
           <p className=" flex max-w-[476px] mb-7">
-            Под залог авто. Процентная ставка 3,15% в месяц. 
-            Без скрытых комиссий и платежей. С правом управления и без. 
-            Честная оценка. Свяжитесь с нами сейчас. 
+            С правом вождения и без.
+            Онлайн оценка и рассмотрение.
+            Без скрытых комиссий и платежей. 
+            Честная оценка.
+            Свяжитесь с нами сейчас. 
           </p>
           <Link href={"https://wa.me/+77014191890"} smooth>
             <button className="btn btn-accent mb-8">WhatsApp</button>

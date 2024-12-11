@@ -37,6 +37,7 @@ const About = () => {
             <div>
               <AnimatedText text="Автоломбард Прогресс" textStyles="h2 mb-2" />
               <p className="text-lg">Кредиты под залог авто</p>
+              <p className="text-lg">С правом управления и без</p>
             </div>
             <p className="max-w-[680px] mx-auto xl:mx-0 mb-2">
               Специализируется на предоставлении финансовых услуг населению, малому и среднему бизнесу.
