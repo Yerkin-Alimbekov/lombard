@@ -13,7 +13,7 @@ const Card = ({
   icon,
 }) => {
   return (
-    <div className="w-full h-[270px] overflow-hidden flex items-center sticky top-12">
+    <div className="w-full h-[240px] overflow-hidden flex items-center sticky top-12">
       <div className="w-full h-[220px] border border-accent/80 bg-[#f4ffff] rounded-[8px]">
         <div className="flex flex-col h-full">
           <div className="h-[80px] xl:h-[68px] bg-white flex flex-col xl:flex-row justify-center xl:justify-between items-center px-6 md:px-[84px] rounded-tl-[8px] rounded-tr-[8px]">

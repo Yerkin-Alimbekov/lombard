@@ -15,7 +15,7 @@ const bebasNeue = Bebas_Neue({
 
 export const metadata = {
   title: "Автоломбард Прогресс",
-  description: "микрокредиты под залог авто",
+  description: "микрокредиты под залог авто с правом вождения",
 };
 
 export default function RootLayout({ children }) {
