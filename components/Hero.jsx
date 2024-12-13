@@ -16,7 +16,7 @@ const Hero = () => {
       {/* header */}
       <Header />
       <div className="container mx-auto h-full">
-        <div className="relative z-20 h-full w-full xl:max-w-[768px] flex flex-col items-center xl:items-start justify-center text-center xl:text-left pt-10">
+        <div className="relative z-20 h-full w-full xl:max-w-[768px] flex flex-col items-center xl:items-start justify-center text-center xl:text-left pt-0">
           <h1 className="h2 mb-2 max-w-[320px] xl:max-w-none">
             <span className="text-accent flex">КРЕДИТЫ ПОД ЗАЛОГ АВТО</span>
             <TypeAnimation
