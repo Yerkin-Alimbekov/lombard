@@ -52,9 +52,9 @@ const FixedMenu = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 20 }}
             transition={{ duration: 0.2 }}
-            className="relative w-full max-w-md md:max-w-none h-[400px] bottom-[28rem] xl:bottom-[21.2rem] px-4 pointer-events-auto"
+            className="relative w-full max-w-md md:max-w-none h-[300px] bottom-[25rem] xl:bottom-[21.2rem] px-4 pointer-events-auto"
           >
-            <div className="bg-white w-full h-full shadow-custom max-w-[1170px] mx-auto py-12 xl:py-12 px-12 xl:px-32 flex items-center gap-12 rounded-lg">
+            <div className="bg-white w-full h-full shadow-custom max-w-[1170px] mx-auto py-12 xl:py-12 px-12 xl:px-32 flex items-center gap-12 rounded-[100px]">
               <Nav
                 containerStyles="md:border-r border-secondary/20 md:pr-12 w-full md:w-auto text-center md:text-left"
                 listStyles="flex flex-col justify-center gap-4"
@@ -64,49 +64,30 @@ const FixedMenu = () => {
               {/* info */}
               <div className="hidden md:flex mx-auto">
                 <div>
-                  <div className="flex gap-12 mb-12">
+                  <div className="flex gap-12 mb-8">
                     {/* location */}
                     <div className="flex flex-col">
-                      <div className="text-[28px] text-accent mb-2">
-
-                      <Link href={'https://go.2gis.com/gi5fqd'}>
-                          <FiMapPin />
-                        </Link>
-
-                      </div>
+                      
                       <p className="font-semibold text-primary text-lg">
-                        Мы на карте
+                        Адрес:
                       </p>
-                      <p>г.Алматы, ул. Толе би 302</p>
+                      <p>г.Алматы, Ауезовский р-он, ул. Толе би 302, 3 этаж, офис 39</p>
                     </div>
                     {/* phone */}
-                    <div className="flex flex-col">
-                      <div className="text-[28px] text-accent mb-2">
-
-                      <Link href={'https://wa.me/+77014191890'}>
-                          <FiPhoneCall />
-                        </Link>
-                        
-                      </div>
-                      <p className="font-semibold text-primary text-lg">
-                       WhatsApp
-                      </p>
-                      <p>+7(701) 419 1890</p>
-                    </div>
+                   
                     {/* email */}
+
                     <div className="flex flex-col">
-                      <div className="text-[28px] text-accent mb-2">
-                        <FiMail />
-                      </div>
                       <p className="font-semibold text-primary text-lg">
-                        Email
+                        Email:
                       </p>
                       <p>progressautolombard@gmail.com</p>
                     </div>
                   </div>
+
                   {/* socials */}
                   <Socials
-                    containerStyles="flex gap-0"
+                    containerStyles="flex gap-9 relative h-40"
                     iconStyles="text-[20px] w-[32px] h-[32px] text-primary flex items-center justify-center rounded-full"
                   />
                 </div>

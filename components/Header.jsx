@@ -16,7 +16,7 @@ const Header = () => {
             {/* nav & socials */}
             <Nav
               containerStyles="hidden xl:flex"
-              listStyles="flex gap-6"
+              listStyles="flex gap-6 hidden"
               linkStyles="text-primary font-primary text-white tracking-[1.4px] transition-all duration-300 cursor-pointer"
             />
             <Socials

@@ -36,7 +36,8 @@ const Hero = () => {
             Честная оценка.
             Свяжитесь с нами сейчас. 
           </p>
-          <Link href={"https://wa.me/+77014191890"} smooth>
+          <Link 
+              href={"https://wa.me/+77014191890"} smooth>
             <button className="btn btn-accent mb-8">WhatsApp</button>
           </Link>
           {/* stats */}
