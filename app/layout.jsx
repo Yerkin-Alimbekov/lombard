@@ -14,7 +14,7 @@ const bebasNeue = Bebas_Neue({
 });
 
 export const metadata = {
-  title: "Автоломбард с правом вождения",
+  title: "Автоломбард Прогресс с правом вождения",
   description: "Кредиты под залог авто",
 };
 
